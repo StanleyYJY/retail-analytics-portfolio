@@ -1,0 +1,14 @@
+[project]
+name = "retail-analytics-portfolio"
+version = "0.1.0"
+description = "Retail analytics on public data: dbt + DuckDB model layer, churn early warning with walk-forward backtesting, month-end forecasting."
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb>=1.1",
+  "dbt-duckdb>=1.9",
+  "pandas>=2.2",
+  "openpyxl>=3.1",
+  "pyarrow>=17",
+  "scikit-learn>=1.5",
+  "matplotlib>=3.9",
+]
